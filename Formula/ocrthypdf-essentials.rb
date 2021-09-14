@@ -6,20 +6,12 @@ class OcrthypdfEssentials < Formula
   sha256 "1bee3451fa89f0ebea6dcb1aa0160b454568bdd70aa7f2576f0323989e11f1b0"
   license "AGPL-3.0-only"
 
-  #depends_on "rust" => :build
   depends_on "libxml2"
-  #depends_on "libxslt"
   depends_on "ocrmypdf"
   depends_on "pillow"
   depends_on "python-tk@3.9"
   depends_on "python@3.9"
   depends_on "qpdf"
-
-  #uses_from_macos "libffi"
-
-  #on_linux do
-  #  depends_on "pkg-config" => :build
-  #end
 
   resource "lxml" do
     url "https://files.pythonhosted.org/packages/e5/21/a2e4517e3d216f0051687eea3d3317557bde68736f038a3b105ac3809247/lxml-4.6.3.tar.gz"
