@@ -35,9 +35,9 @@ class OcrthypdfEssentials < Formula
     cp_r ["code", "gui", "licenses"], prefix
 
     (bin/"ocrthypdf").write <<~EOS
-#! /bin/bash
-source #{prefix}/libexec/bin/activate
-python3 #{prefix}/code/OCRthyPDF.py
+      #! /bin/bash
+      source #{prefix}/libexec/bin/activate
+      python3 #{prefix}/code/OCRthyPDF.py
     EOS
   end
 end
