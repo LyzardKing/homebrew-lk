@@ -21,7 +21,6 @@ class OcrthypdfEssentials < Formula
     depends_on "pkg-config" => :build
   end
 
-
   resource "lxml" do
     url "https://files.pythonhosted.org/packages/e5/21/a2e4517e3d216f0051687eea3d3317557bde68736f038a3b105ac3809247/lxml-4.6.3.tar.gz"
     sha256 "39b78571b3b30645ac77b95f7c69d1bffc4cf8c3b157c435a34da72e78c82468"
@@ -30,11 +29,6 @@ class OcrthypdfEssentials < Formula
   resource "pikepdf" do
     url "https://files.pythonhosted.org/packages/a4/5c/6770b064dbe6402397cf87f07b92a252f73099705fcf980030404767bc62/pikepdf-3.0.0.tar.gz"
     sha256 "3c17937e230b22afa975e69130e89df2911dd1e2c7bbe200138684154e428843"
-  end
-
-  resource "Pillow" do
-    url "https://files.pythonhosted.org/packages/90/d4/a7c9b6c5d176654aa3dbccbfd0be4fd3a263355dc24122a5f1937bdc2689/Pillow-8.3.2.tar.gz"
-    sha256 "dde3f3ed8d00c72631bc19cbfff8ad3b6215062a5eed402381ad365f82f0c18c"
   end
 
   resource "PySimpleGUI" do
