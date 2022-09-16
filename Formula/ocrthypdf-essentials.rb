@@ -2,8 +2,8 @@ class OcrthypdfEssentials < Formula
   include Language::Python::Virtualenv
   desc "Make your PDF files text-searchable (A GUI for OCRmyPDF)"
   homepage "https://github.com/digidigital/OCRthyPDF-Essentials"
-  url "https://github.com/digidigital/OCRthyPDF-Essentials/archive/refs/tags/v0.6.3.tar.gz"
-  sha256 "1bee3451fa89f0ebea6dcb1aa0160b454568bdd70aa7f2576f0323989e11f1b0"
+  url "https://github.com/digidigital/OCRthyPDF-Essentials/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "93547924e92407d1b63a8a3ebed25cedf075db5587ee2dfeddd92b678facc5ae"
   license "AGPL-3.0-only"
   revision 1
 
@@ -15,18 +15,18 @@ class OcrthypdfEssentials < Formula
   depends_on "qpdf"
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/e5/21/a2e4517e3d216f0051687eea3d3317557bde68736f038a3b105ac3809247/lxml-4.6.3.tar.gz"
-    sha256 "39b78571b3b30645ac77b95f7c69d1bffc4cf8c3b157c435a34da72e78c82468"
+    url "https://files.pythonhosted.org/packages/70/bb/7a2c7b4f8f434aa1ee801704bf08f1e53d7b5feba3d5313ab17003477808/lxml-4.9.1.tar.gz"
+    sha256 "fe749b052bb7233fe5d072fcb549221a8cb1a16725c47c37e42b0b9cb3ff2c3f"
   end
 
   resource "pikepdf" do
-    url "https://files.pythonhosted.org/packages/a4/5c/6770b064dbe6402397cf87f07b92a252f73099705fcf980030404767bc62/pikepdf-3.0.0.tar.gz"
-    sha256 "3c17937e230b22afa975e69130e89df2911dd1e2c7bbe200138684154e428843"
+    url "https://files.pythonhosted.org/packages/c7/b2/f2fb8157a75248d6995576ea72514da185d15e6fe945b326ee4c548ea24e/pikepdf-6.0.1.tar.gz"
+    sha256 "519a017282780ad2d547cd848407ab03b2cb12ee467b71e51f53ca7f4f3146ea"
   end
 
   resource "PySimpleGUI" do
-    url "https://files.pythonhosted.org/packages/e2/25/c0a25cae13989be372ccba48988fa1a46ff5cb9a08cc80d09f69df48e6db/PySimpleGUI-4.47.0.tar.gz"
-    sha256 "36a7154ec018c8c56223f484ea9705548ab55dab7817dbe735ae51f4f5cd1652"
+    url "https://files.pythonhosted.org/packages/8d/3b/4906c9b23192d6b0c78c640223cb3e4365be3ec020ac4c00d72d73e72ff2/PySimpleGUI-4.60.3.tar.gz"
+    sha256 "75ec46694dc975c0e46be8c57a774e038433b53095821d67be3b221aca3fd68d"
   end
 
   def install
