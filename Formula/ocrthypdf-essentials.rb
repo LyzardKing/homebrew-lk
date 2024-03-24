@@ -10,9 +10,9 @@ class OcrthypdfEssentials < Formula
   depends_on "libxml2"
   depends_on "ocrmypdf"
   depends_on "pillow"
+  depends_on "python-lxml"
   depends_on "python-tk@3.9"
   depends_on "python@3.9"
-  depends_on "python-lxml"
 
   depends_on "qpdf"
 
